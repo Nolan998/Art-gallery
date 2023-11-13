@@ -1,0 +1,40 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    padding: 10px;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    text-align: center;
+  }
+  
+  .close {
+    float: right;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .close:hover {
+    color: #aaa;
+  }
+  
+  .error-message {
+    color: red;
+  }
